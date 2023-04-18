@@ -1,0 +1,28 @@
+.list_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 2rem;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+li {
+  max-width: 250px;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+
+.basket_item {
+  background-color: rgba(128, 128, 128, 0.219);
+}
+.basket_item img {
+  max-width: 100px;
+}
